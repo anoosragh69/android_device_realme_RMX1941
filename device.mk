@@ -103,7 +103,7 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
     android.hardware.memtrack@1.0.vendor
-    
+
 # FSTAB
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/rootdir/etc/fstab.mt6765:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6765
@@ -132,6 +132,10 @@ PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhwbinder \
     libhwbinder.vendor    
+
+# ImsInit
+PRODUCT_PACKAGES += \
+    ImsInit
 
 # Input/DT2W
 PRODUCT_COPY_FILES += \
