@@ -229,6 +229,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.raw.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/configs/permissions/privapp-permissions-org.lineageos.realme.imsinit.xml:system/etc/permissions/privapp-permissions-org.lineageos.realme.imsinit.xml
+
 # Pixel Charger
 PRODUCT_PACKAGES += \
     charger_res_images \
