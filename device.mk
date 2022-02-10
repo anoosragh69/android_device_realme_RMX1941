@@ -279,6 +279,10 @@ PRODUCT_PACKAGES += \
     fstab.mt6765 \
     ueventd.mt6765.rc
 
+# Recovery
+PRODUCT_PACKAGES += \
+    init.recovery.mt6765.rc
+
 # RenderScript
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
