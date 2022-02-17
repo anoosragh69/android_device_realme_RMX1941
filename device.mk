@@ -32,6 +32,9 @@ $(call inherit-product, kernel/mediatek/common-headers/device.mk)
 # Parts
 $(call inherit-product-if-exists, packages/apps/RealmeParts/parts.mk)
 
+# Dirac
+$(call inherit-product-if-exists, packages/apps/RealmeDirac/dirac.mk)
+
 PRODUCT_SHIPPING_API_LEVEL := 28
 
 # APNs
