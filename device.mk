@@ -23,7 +23,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
-# IMS                                             $(call inherit-product, vendor/realme/RMX1941-ims/RMX1941-ims.mk)
+# IMS
+$(call inherit-product, vendor/realme/RMX1941-ims/RMX1941-ims.mk)
 
 # Mediatek Common Kernel Headers
 $(call inherit-product, kernel/mediatek/common-headers/device.mk)
@@ -311,7 +312,7 @@ PRODUCT_PACKAGES += \
 
 # Trustonic TEE
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/public.libraries-trustonic.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries-trustonic.txt
+    $(DEVICE_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
 # USB
 PRODUCT_PACKAGES += \
