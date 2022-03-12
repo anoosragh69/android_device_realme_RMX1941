@@ -159,7 +159,6 @@ persist.vendor.radio.smart.data.switch=1
 persist.vendor.vilte_support=1
 persist.vendor.viwifi_support=1
 persist.vendor.volte_support=1
-ro.apex.updatable=true
 ro.config.alarm_alert=ringtone_008.ogg
 ro.config.calendar_sound=notification_003.ogg
 ro.config.notification_sim2=notification_000.ogg
