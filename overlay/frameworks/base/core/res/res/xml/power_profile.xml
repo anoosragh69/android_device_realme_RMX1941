@@ -39,8 +39,8 @@
        with a power meter. -->
   <item name="none">0</item>
   <item name="ambient.on">27</item>
-  <item name="screen.on">61</item>  <!-- ~200mA -->
-  <item name="screen.full">299</item>  <!-- ~300mA -->
+  <item name="screen.on.display0">61</item>  <!-- ~200mA -->
+  <item name="screen.full.display0">299</item>  <!-- ~300mA -->
   <item name="bluetooth.active">19.7</item> <!-- Bluetooth data transfer, ~10mA -->
   <item name="bluetooth.on">1.84</item>  <!-- Bluetooth on & connectable, but not connected, ~0.1mA -->
   <item name="wifi.on">0.35</item>  <!-- ~3mA -->
