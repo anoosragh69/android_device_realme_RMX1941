@@ -249,3 +249,4 @@ vendor.mtk.vdec.waitkeyframeforplay=7
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30 
 debug.renderengine.backend=skiaglthreaded
+media.stagefright.thumbnail.prefer_hw_codecs=true 
