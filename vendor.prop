@@ -1,7 +1,6 @@
 dalvik.vm.heapgrowthlimit=256m
 dalvik.vm.heapsize=512m
 dalvik.vm.mtk-stack-trace-file=/data/anr/mtk_traces.txt
-debug.sf.disable_backpressure=1
 drm.service.enabled=true
 persist.log.tag.C2K_RIL-SIM=D
 persist.log.tag.CarrierExpressServiceImpl=D
