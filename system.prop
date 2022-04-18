@@ -25,10 +25,6 @@ pm.dexopt.first-boot=quicken
 dalvik.vm.dex2oat-cpu-set=0,1,2,3,4,5
 dalvik.vm.dex2oat-threads=6
 
-# Iorap
-persist.device_config.runtime_native_boot.iorap_readahead_enable=true
-iorapd.readahead.enable=true
-
 # USB
 ro.sys.usb.mtp.whql.enable=0
 ro.sys.usb.storage.type=mtp
